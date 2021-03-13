@@ -924,9 +924,9 @@ malloc是C中进行内存分配的函数，它的返回类型是void\*即空类�
 
 - 引入const关键字代替#define constants，它是有类型、有作用域的，而#define constants只是简单的文本替换
 
-- 一些#define宏可被改写为inline函数，结合函数的重载，可在类型安全的前提下支持多种类型，当然改写为模板也能保证类型安全
+- 一些#define宏可被改写为inline函数，结合函数的重载，可在类型安全的前提下支持多种类型，当然改写为模板也能保证类型安全(關於inline：https://www.runoob.com/w3cnote/cpp-inline-usage.html)
 
-- C++提供了**dynamic_cast**关键字，使得转换过程更加安全，因为dynamic_cast比static_cast涉及更多具体的类型检查。
+- C++提供了**dynamic_cast**关键字，使得转换过程更加安全，因为dynamic_cast比static_cast涉及更多具体的类型检查。(dynamic_cast運算符：dynamic_cast<type*>(e),dynamic_cast<type&>(e),e是目標類型的type的公有派生類或者e是類型目標type的公有基類)
 
   例1：使用void\*进行类型转换
 
@@ -1070,7 +1070,7 @@ int main()
 
 
 析构函数：
-
+- 純虛函數：https://www.itdaan.com/tw/8be8f079bbad2366b694add26f808385
 - 析构函数可以为虚函数，并且一般情况下基类析构函数要定义为虚函数。
 - 只有在基类析构函数定义为虚函数时，调用操作符delete销毁指向对象的基类指针时，才能准确调用派生类的析构函数（从该级向上按序调用虚函数），才能准确销毁数据。
 - **析构函数可以是纯虚函数**，含有纯虚函数的类是抽象类，此时不能被实例化。但派生类中可以根据自身需求重新改写基类中的纯虚函数。
