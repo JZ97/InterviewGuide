@@ -2580,7 +2580,7 @@ struct Person
     {
          cout << "I have been copy constructed" <<endl;
     }
-     //转移构造函数
+     //转移构造函数（關於轉移構造函數：http://blog.sina.com.cn/s/blog_7f47cb430102vyy4.html）
      Person(Person&& other): name(std::move(other.name)), age(other.age)
     {
          cout << "I have been moved"<<endl;
