@@ -2540,7 +2540,7 @@ void realloc(void *p, size_t new_size);
 **检测工具**
 
 - Linux下可以使用**Valgrind工具**
-- Windows下可以使用**CRT库**
+- Windows下可以使用**CRT库**（https://blog.csdn.net/so_geili/article/details/53009655）
 
 
 
