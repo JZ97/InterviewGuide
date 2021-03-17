@@ -3616,7 +3616,7 @@ int main()
 
 > 《C++ 智能指针（及循环引用问题）》：https://blog.csdn.net/m0_37968340/article/details/76737395
 
-#### 97、什么是虚拟继承
+#### 97、什么是虚拟继承（https://blog.csdn.net/wangqiulin123456/article/details/8059536）
 
 由于C++支持多继承，除了public、protected和private三种继承方式外，还支持虚拟（virtual）继承，举个例子：
 
