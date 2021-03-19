@@ -5132,7 +5132,7 @@ char* strncpy(char* strDest, const char* strSrc, int pos)
 
 4)  因为可以把调用者与被调用者分开。调用者不关心谁是被调用者，所有它需知道的，只是存在一个具有某种特定原型、某些限制条件（如返回值为int）的被调用函数。
 
-#### 178、什么是一致性哈希？
+#### 178、什么是一致性哈希？（https://blog.csdn.net/okiwilldoit/article/details/51352743）
 
 **一致性哈希**
 
