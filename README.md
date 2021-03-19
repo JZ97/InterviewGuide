@@ -5617,6 +5617,10 @@ int main() {
 	int&& j = getInt();  //正确，函数返回值是右值
 	fun(10); //此时fun函数的参数t是右值
 	fun(a); //此时fun函数的参数t是左值
+	
+	int &&ii = 10;
+	int &iii = ii;//是正确的，右值引用可以绑定到左值引用，iii==10；
+	
 	return 0;
 }
 
