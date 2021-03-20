@@ -5702,7 +5702,7 @@ template<> struct __type_traits<Shape>{
 
 > 《STL源码解析》侯捷 P103-P110
 
-#### 189、STL的两级空间配置器
+#### 189、STL的两级空间配置器（https://blog.csdn.net/wolfGuiDao/article/details/106145472）
 
 1、首先明白为什么需要二级空间配置器？
 
