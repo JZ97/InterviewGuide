@@ -1,7 +1,6 @@
 <h1 align="center">InterviewGuide</h1>
 <div align="left">
-<p>计算机校招、社招面试常见八股文整理，也是<strong>《逆袭进大厂》</strong>的唯一仓库.目前已收录 <strong>C/C++ 、操作系统、数据结构、计算机网络、MySQL、Redis</strong>等面试资料，未来打算继续收录<strong>Java、Python、Go</strong>等面试常见问题，坚持将此仓库维护下去。</p>
-    </div> 
+
 
 
 
